@@ -1,0 +1,54 @@
+.livro__container {
+    padding-top: 40px;
+}
+
+.livro__row {
+    padding: 0 11%;
+    font-family: 'Lato', sans-serif;
+}
+
+.livro__text {
+    text-align: justify;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 300;
+    font-style: normal;
+    position: relative;
+    height: auto;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    color: #444444;
+}
+
+.livro__title {
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 2em;
+    letter-spacing: .02em;
+    font-weight: 200;
+    color: #383838;
+}
+
+.livro__subtitle {
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2em;
+    letter-spacing: .02em;
+    font-weight: 100;
+    color: rgba(68, 68, 68, 0.83);
+    padding-bottom: 20px;
+}
+
+.livro__subsubtitle {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5em;
+    letter-spacing: .02em;
+    font-weight: 100;
+    color: rgba(68, 68, 68, 0.83);
+}

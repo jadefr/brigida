@@ -1,0 +1,14 @@
+.image-source__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-source__img {
+    max-width: 95%;
+    border-radius: 10px;
+}
+
+.image-source__title {
+
+}

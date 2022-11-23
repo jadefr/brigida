@@ -1,0 +1,9 @@
+.gruta__row {
+    padding: 0 11%;
+}
+
+.gruta__placa-text {
+    font-style: italic;
+    color: rgba(68, 68, 68, 0.83);
+    padding: 0 17%;
+}
