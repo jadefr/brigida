@@ -11,12 +11,12 @@
     top: 0;
     z-index: 999;
 }
-.navbar .navbar-container {
+.navbar__container {
     display: flex;
     justify-content: space-between;
     height: 100px;
 }
-.navbar .container {
+.container {
     z-index: 1;
     width: 100%;
     max-width: 1300px;
@@ -25,7 +25,7 @@
     padding-left: 50px;
     padding-right: 50px;
 }
-.navbar .container .navbar-logo {
+.navbar-logo {
     color: #666666;
     justify-self: start;
     cursor: pointer;
@@ -34,6 +34,15 @@
     display: flex;
     align-items: center;
 }
+
+.navbar-icon {
+    margin-right: 0.5rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
 .navbar .container .nav-menu {
     display: flex;
     align-items: center;
@@ -56,8 +65,90 @@
 .navbar .container .nav-menu .nav-item:hover {
     border-bottom: 2px solid black;
 }
+
 @media only screen and (max-width: 1225px) {
     .navbar {
         padding: 0 24px;
     }
+}
+
+@media screen and (max-width: 960px) {
+    /*.NavbarItems {*/
+    /*    position: relative;*/
+    /*}*/
+
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 80px;
+        left: -50%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+
+    .nav-menu.active {
+        background: rgba(204, 204, 204, 0.84);
+        left: 0;
+        opacity: 1;
+        transition: all 0.6s ease;
+        z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: grid;
+
+        /*color: #de1818;*/
+        /*display: flex;*/
+        /*align-items: center;*/
+        /*text-decoration: none;*/
+        /*!*padding: 0.5rem 0.7rem;*!*/
+        /*height: 100%;*/
+    }
+
+    .nav-links:hover {
+        color: #09f09f;
+        transform: scale(1.2);
+        transition: all 0.2s ease;
+    }
+
+    .nav-item:hover {
+        border: none;
+    }
+
+    .nav-item {
+        width: 100%;
+    }
+
+    /*.navbar-logo {*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    left: 0;*/
+    /*    transform: translate(25%, 50%);*/
+    /*}*/
+
+    .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .navbar-logo {
+        /*display: none;*/
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 1.7rem;
+    }
+
+
 }

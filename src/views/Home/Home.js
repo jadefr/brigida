@@ -1,11 +1,10 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import './Home.css';
 import ImageSource from "../../components/ImageSource/ImageSource";
 import {imgBrigida} from "./HomeData";
 
 
 function Home() {
-
     return (
         <div>
             <div className="home__img_row">
