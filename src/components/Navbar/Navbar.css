@@ -72,7 +72,7 @@
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 660px) {
     /*.NavbarItems {*/
     /*    position: relative;*/
     /*}*/
@@ -89,7 +89,7 @@
     }
 
     .nav-menu.active {
-        background: rgba(204, 204, 204, 0.84);
+        background: rgb(56, 56, 56);
         left: 0;
         opacity: 1;
         transition: all 0.6s ease;
@@ -98,22 +98,23 @@
 
     .nav-links {
         text-align: center;
-        padding: 2rem;
+        padding: 3rem;
         width: 100%;
         display: grid;
 
-        /*color: #de1818;*/
-        /*display: flex;*/
-        /*align-items: center;*/
-        /*text-decoration: none;*/
-        /*!*padding: 0.5rem 0.7rem;*!*/
-        /*height: 100%;*/
     }
 
-    .nav-links:hover {
-        color: #09f09f;
-        transform: scale(1.2);
-        transition: all 0.2s ease;
+    .navbar .container .nav-menu .nav-item .nav-links {
+        color: rgb(255, 255, 255);
+        padding: 0.5rem 40%;
+    }
+
+    .navbar .container .nav-menu .nav-item:hover {
+        border-bottom: 0.1rem solid;
+    }
+
+    .navbar .container .nav-menu .nav-item:hover {
+        color: rgba(9, 240, 159, 0);
     }
 
     .nav-item:hover {
@@ -124,13 +125,6 @@
         width: 100%;
     }
 
-    /*.navbar-logo {*/
-    /*    position: absolute;*/
-    /*    top: 0;*/
-    /*    left: 0;*/
-    /*    transform: translate(25%, 50%);*/
-    /*}*/
-
     .menu-icon {
         display: block;
         position: absolute;
@@ -139,6 +133,7 @@
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
+        color: rgba(204, 204, 204, 0.91);
     }
 
     .navbar-logo {
@@ -149,6 +144,5 @@
         left: 20px;
         font-size: 1.7rem;
     }
-
 
 }
