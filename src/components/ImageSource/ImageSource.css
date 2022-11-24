@@ -1,7 +1,8 @@
 .image-source__container {
-    display: grid;
+    display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .image-source__img {
@@ -10,4 +11,14 @@
 }
 
 .image-source__title {
+    /*padding-top: 0.7rem;*/
+    padding: 0.7rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 660px) {
+
+    .image-source__title {
+        font-size: 0.9rem;
+    }
 }
