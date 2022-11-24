@@ -1,5 +1,5 @@
 .image-source__container {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
 }
@@ -10,5 +10,4 @@
 }
 
 .image-source__title {
-
 }

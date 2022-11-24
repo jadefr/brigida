@@ -18,15 +18,28 @@ function Gruta() {
                 <p className="text">Veja abaixo imagens da Gruta de Lourdes, da igreja Madre de Deus de Angustura e do
                     túmulo da Brígida, localizado no cemitério de Angustura.</p>
             </div>
-            <div className="gruta__row">
-                <ImageSource {...imgRosa} />
+            <div className="gruta__row gruta__img-row">
+                <ImageSource  className="gruta__image" {...imgRosa} />
+            </div>
+            <div className="gruta__row gruta__img-row">
                 <ImageSource {...imgNoite} />
+            </div>
+            <div className="gruta__row gruta__img-row">
                 <ImageSource {...imgPlaca} />
+            </div>
+            <div className="gruta__row gruta__img-row">
                 <ImageSource {...imgFront} />
+            </div>
+            <div className="gruta__row gruta__img-row">
                 <ImageSource {...imgAltar} />
+            </div>
+            <div className="gruta__row gruta__img-row">
                 <ImageSource {...imgCruz} />
+            </div>
+            <div className="gruta__row gruta__img-row">
                 <ImageSource {...imgTumulo} />
             </div>
+
         </div>
     );
 }

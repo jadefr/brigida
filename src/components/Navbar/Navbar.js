@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
-import {Link, NavLink} from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { FaBars, FaTimes } from "react-icons/fa";
-// import { IconContext } from "react-icons/libs";
 
 function Navbar() {
     const [click, setClick] = useState(false);
@@ -33,11 +32,6 @@ function Navbar() {
                             Livro
                         </Link>
                     </li>
-                    {/*<li className="nav-item home-page">*/}
-                    {/*    <Link to='/' className="nav-links home-page" onClick={closeMobileMenu}>*/}
-                    {/*        Página Inicial*/}
-                    {/*    </Link>*/}
-                    {/*</li>*/}
                 </ul>
             </div>
         </div>
