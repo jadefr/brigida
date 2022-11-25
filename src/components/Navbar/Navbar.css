@@ -1,12 +1,10 @@
 .navbar {
     background: white;
     height: 100px;
-    /* desktop */
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    /* 12px */
     position: sticky;
     top: 0;
     z-index: 999;
@@ -65,6 +63,19 @@
 .navbar .container .nav-menu .nav-item:hover {
     border-bottom: 2px solid black;
 }
+
+
+.hidden{
+    /*height: 4rem;*/
+    height: 80px;
+    width: 100%;
+    z-index: 40;
+    position: fixed;
+    top: -80px;
+    transition: 0.3s linear;
+
+}
+
 
 @media only screen and (max-width: 1225px) {
     .navbar {
