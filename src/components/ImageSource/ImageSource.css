@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    padding: 3% 11%;
 }
 
 .image-source__img {
@@ -11,7 +12,6 @@
 }
 
 .image-source__title {
-    /*padding-top: 0.7rem;*/
     padding: 0.7rem;
     text-align: center;
 }
@@ -20,5 +20,9 @@
 
     .image-source__title {
         font-size: 0.9rem;
+    }
+
+    .image-source__container {
+        padding: 0;
     }
 }

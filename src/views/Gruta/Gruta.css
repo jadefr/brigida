@@ -8,10 +8,6 @@
     padding: 0 17%;
 }
 
-.gruta__img-row {
-    margin: 3rem;
-}
-
 @media (min-width: 1460px){
     .gruta__row {
         padding: 0 25%;
