@@ -25,7 +25,7 @@ export const imgNoite = {
 export const imgPlaca = {
     src: 'images/placa.jpg',
     alt: 'Placa na gruta',
-    text: 'Placa da gruta'
+    text: 'Letreiro'
 };
 
 export const imgRosa = {
