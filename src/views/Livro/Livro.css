@@ -40,7 +40,7 @@
     line-height: 2em;
     letter-spacing: .02em;
     font-weight: 100;
-    color: rgba(68, 68, 68, 0.83);
+    color: rgba(68, 68, 68, 0.8);
     padding-bottom: 20px;
 }
 
@@ -51,4 +51,15 @@
     letter-spacing: .02em;
     font-weight: 100;
     color: rgba(68, 68, 68, 0.83);
+}
+
+@media screen and (max-width: 660px) {
+    .livro__title {
+        line-height: 1.5em;
+        padding-bottom: 15px;
+    }
+
+    .livro__subtitle {
+        line-height: 1.3em;
+    }
 }

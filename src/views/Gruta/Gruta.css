@@ -6,10 +6,33 @@
     font-style: italic;
     color: rgba(68, 68, 68, 0.83);
     padding: 0 17%;
+    text-align: center;
 }
 
-@media (min-width: 1460px){
+span {
+    color: red;
+}
+
+@media (min-width: 1460px) {
     .gruta__row {
         padding: 0 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .gruta__row {
+        padding: 0 2%;
+    }
+
+    .gruta__text-row {
+        padding: 0 5%;
+    }
+
+    .gruta__last-text {
+        padding-bottom: 40px;
+    }
+
+    .gruta__placa-text {
+        padding: 0 9%;
     }
 }

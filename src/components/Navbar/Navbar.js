@@ -9,7 +9,7 @@ function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
-    const [show, setShow] = useState(true);
+    const [show, setShow] = useState(false);
     const [lastScrollY, setLastScrollY] = useState(0);
 
     const controlNavbar = () => {
