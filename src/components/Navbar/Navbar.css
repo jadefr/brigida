@@ -73,10 +73,10 @@
     -ms-user-select: none;
     user-select: none;
 }
+
 .noSelect:focus {
     outline: none !important;
 }
-
 
 .hidden{
     height: 80px;

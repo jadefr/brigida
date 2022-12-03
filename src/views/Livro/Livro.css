@@ -77,4 +77,8 @@
     .livro__subtitle {
         line-height: 1.3em;
     }
+
+    .livro__row {
+        padding: 0 5%;
+    }
 }
