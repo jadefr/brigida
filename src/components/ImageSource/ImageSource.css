@@ -3,17 +3,19 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 3% 11%;
+    padding: 4% 11%;
 }
 
 .image-source__img {
     max-width: 95%;
     border-radius: 10px;
+    /*opacity: 50%;*/
 }
 
 .image-source__title {
     padding: 0.7rem;
     text-align: center;
+    color: rgba(56, 56, 56, 0.7);
 }
 
 @media screen and (max-width: 660px) {

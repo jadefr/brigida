@@ -3,9 +3,8 @@
 }
 
 .home__img_row {
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
 }
-
 
 @media (max-width: 660px){
     .home__row {
