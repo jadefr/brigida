@@ -11,8 +11,8 @@ function Gruta() {
                     Nossa Senhora de Lourdes, ao lado da igreja Matriz Madre de Deus de Angustura.</p>
                 <p className="text">A gruta apresenta uma imagem, em mármore, de Nossa Senhora de Lourdes e um letreiro
                     com a seguinte inscrição:</p>
-                <p className="text gruta__placa-text">"A Gruta de Lourdes que marca, como o ponteiro do grande relógio
-                    do tempo, o prestígio da crença na successão dos séculos. 1935"</p>
+                <p className="text gruta__placa-text">A Gruta de Lourdes que marca, como o ponteiro do grande relógio
+                    do tempo, o prestígio da crença na successão dos séculos.<br/>1935</p>
             </div>
             <div className="gruta__row gruta__text-row gruta__last-text">
                 <p className="text">Veja abaixo imagens da Gruta de Lourdes, da igreja Madre de Deus de Angustura e do
