@@ -125,7 +125,6 @@ function Livro() {
 
                 <div className="separator-space"></div>
 
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
                 <p className="livro__text"><span className="livro__span-italics">Brígida</span> passava as férias na
                     longíqua Fazenda de seus pais.</p>
                 <p className="livro__text">Ora, nada mais próprio para excitar ao Apostolado que as propriedades
@@ -134,7 +133,6 @@ function Livro() {
 
                 <div className="separator-space"></div>
 
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
                 <p className="livro__text">A <TfiAngleDoubleLeft className="livro__icon"/>Fazenda de Santa
                     Cruz<TfiAngleDoubleRight className="livro__icon"/> não tinha padre, nem igreja, só a capela
                     doméstica, onde raramente, se ouvia a Santa Missa.</p>
@@ -171,8 +169,6 @@ function Livro() {
                     Cruz<TfiAngleDoubleRight className="livro__icon"/> em Paróquia; a Capelinha era ornada com gosto
                     para a Sta. Missa.</p>
 
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
-
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">2. Festa Célebres nos Anais de <TfiAngleDoubleLeft
                     className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>. — D. Justino
@@ -193,8 +189,6 @@ function Livro() {
                     elogios <TfiAngleDoubleLeft className="livro__icon"/>a essa filha de Maria exemplar, verdadeiro
                     apóstolo e tesouro de sua diocese<TfiAngleDoubleRight className="livro__icon"/>.</p>
 
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
-
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">3. Mês de Maio</p>
                 </div>
@@ -207,8 +201,6 @@ function Livro() {
                 <p className="livro__text">Os visitantes, de passagem por <TfiAngleDoubleLeft className="livro__icon"/>Santa
                     Cruz<TfiAngleDoubleRight className="livro__icon"/>, reuniam-se à família e aos colonos, para a
                     recitação das preces da tarde. Todos guardam, até hoje, imorredoura lembrança de tudo.</p>
-
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">4. Seu afeto para com os pais — Dona de casa</p>
@@ -224,8 +216,6 @@ function Livro() {
                 <p className="livro__text">Sentia-se magoada, quando alguém aludia à sua atividade ou canseira. Semear a
                     alegria na hospitaleira vivenda de seus pais, eis o ideal de <span
                         className="livro__span-italics">Brígida</span>.</p>
-
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">5. Anjo Consolador e Enfermeira Universal</p>
@@ -249,8 +239,6 @@ function Livro() {
                     className="livro__span-italics">Dona Brígida</span> partia, imediatamente, acompanhada de seu pai e
                     munida de sua pequena farmácia. Voltava, somente, depois de ter medicado, consolado e exortado o
                     doente.</p>
-
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">6. Sua vida particular</p>
@@ -276,8 +264,6 @@ function Livro() {
                 <p className="livro__text">Uma semana antes de morrer, participou, com suas companheiras, numa procissão
                     da Assunção, depois de ter feito, cedinho, sua última Comunhão, sem sequer pressentir o seu fim
                     próximo.</p>
-
-                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">7. Sua morte</p>
@@ -306,9 +292,7 @@ function Livro() {
                 <p className="livro__text">Esta biografia não confirma bem o título de — Anjo e Apóstolo — atribuído
                     à <span className="livro__span-italics">Brígida</span>?</p>
             </div>
-            {/*<div className="livro__row text livro_first-rows">*/}
-            {/*    <TextImageSource {...imgHr1} />*/}
-            {/*</div>*/}
+
             <div className="livro__row text">
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">EPÍLOGO</p>
