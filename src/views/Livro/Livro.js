@@ -13,7 +13,7 @@ function Livro() {
                 <h2 className="livro__subtitle">Traduzida do Francês pelo Padre Oscar Figueira de Aquino</h2>
             </div>
             <div className="livro__row text livro_first-rows">
-                <TextImageSource {...imgHr1} />
+                {/*<TextImageSource {...imgHr1} />*/}
                 <p className="livro__text">Aos bondosos Tios</p>
                 <p className="livro__text">Chiquinho e Nhánhá</p>
                 <p className="livro__text">oferece o grato sobrinho</p>
@@ -21,10 +21,10 @@ function Livro() {
                 <p className="livro__text">Pe. Oscar Figueira de Aquino</p>
                 <br/>
                 <p className="livro__text">Caraça, 2-11-33.</p>
-                <TextImageSource {...imgHr1} />
-            </div>
-            <div className="separator">
-                <hr></hr>
+                {/*<TextImageSource {...imgHr1} />*/}
+                <div className="separator">
+                    <hr></hr>
+                </div>
             </div>
             <div className="livro__row text livro_first-rows">
                 <p className="livro__text">À memória da Bidinha</p>
@@ -34,9 +34,9 @@ function Livro() {
                 <br/>
                 <p className="livro__text"><span className="livro__span-italics">Adormecida na flôr da idade, sua vida foi longa em atos de virtudes</span>.
                 </p>
-            </div>
-            <div className="separator">
-                <hr></hr>
+                <div className="separator">
+                    <hr></hr>
+                </div>
             </div>
             <div className="livro__row text">
                 <div className="livro__chapter-title">
@@ -123,13 +123,19 @@ function Livro() {
                 <p className="livro__text">Havia-lhe, no zelo, mais que fantasia de criança. Perceberam-no suas mestras,
                     e, na certeza de um grande contentamento, ofereceram-lhe um Catecismo ilustrado, seu melhor auxiliar
                     de sempre</p>
-                <TfiLineDashed className="livro__icon-dash"/>
+
+                <div className="separator-space"></div>
+
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
                 <p className="livro__text"><span className="livro__span-italics">Brígida</span> passava as férias na
                     longíqua Fazenda de seus pais.</p>
                 <p className="livro__text">Ora, nada mais próprio para excitar ao Apostolado que as propriedades
                     brasileiras, de extensões imensas e com numerosos empregados e colonos, sob o regime patriarcal, que
                     se adota, facilmente, quando o dono se presta.</p>
-                <TfiLineDashed className="livro__icon-dash"/>
+
+                <div className="separator-space"></div>
+
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
                 <p className="livro__text">A <TfiAngleDoubleLeft className="livro__icon"/>Fazenda de Santa
                     Cruz<TfiAngleDoubleRight className="livro__icon"/> não tinha padre, nem igreja, só a capela
                     doméstica, onde raramente, se ouvia a Santa Missa.</p>
@@ -142,10 +148,10 @@ function Livro() {
                 <div className="livro__chapter-title">
                     <p className="livro__text livro__span-bold">III</p>
                     <p className="livro__text">Dezembro de 1918</p>
+                    <p className="livro__text livro__span-bold">1. Sua volta definitiva para <TfiAngleDoubleLeft
+                        className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>. Realização de
+                        seus sonhos generosos.</p>
                 </div>
-                <p className="livro__text livro__span-bold">1. Sua volta definitiva para <TfiAngleDoubleLeft
-                    className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>. Realização de
-                    seus sonhos generosos.</p>
                 <p className="livro__text">Filha única, acostumar-se-ia à vida triste e monótona da Fazenda? Sua devoção
                     de piedosa Colegial suportaria a privação dos Sacramentos, sobretudo da Penitência e Eucaristia?</p>
                 <p className="livro__text"><span className="livro__span-italics">Brígida</span> era prudente e forte,
@@ -166,11 +172,13 @@ function Livro() {
                     Cruz<TfiAngleDoubleRight className="livro__icon"/> em Paróquia; a Capelinha era ornada com gosto
                     para a Sta. Missa.</p>
 
-                <TfiLineDashed className="livro__icon-dash"/>
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
-                <p className="livro__text livro__span-bold">2. Festa Célebres nos Anais de <TfiAngleDoubleLeft
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">2. Festa Célebres nos Anais de <TfiAngleDoubleLeft
                     className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>. — D. Justino
                     visita a Fazenda</p>
+                </div>
                 <p className="livro__text"><span className="livro__span-italics">Brígida</span> preparara crianças e
                     adultos para o Sacramento da Confirmação. O Exmo. Snr. D. Justino, Bispo de Juiz de Fora, chegara,
                     de véspera, acompanhado de um Sacerdote e, verdadeiros missionários, ouviram as confissões dos que
@@ -186,9 +194,11 @@ function Livro() {
                     elogios <TfiAngleDoubleLeft className="livro__icon"/>a essa filha de Maria exemplar, verdadeiro
                     apóstolo e tesouro de sua diocese<TfiAngleDoubleRight className="livro__icon"/>.</p>
 
-                <TfiLineDashed className="livro__icon-dash"/>
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
-                <p className="livro__text livro__span-bold">3. Mês de Maio</p>
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">3. Mês de Maio</p>
+                </div>
                 <p className="livro__text">O mês de Maria era celebrado, pomposamente, todos os anos.</p>
                 <p className="livro__text">Tocava-se os sino da Fazenda, à tarde, depois dos trabalhos. Todos acorriam
                     e, de joelhos, ante a Imagem iluminada da Virgem, cantavam hinos e rezavam o terço.</p>
@@ -199,9 +209,11 @@ function Livro() {
                     Cruz<TfiAngleDoubleRight className="livro__icon"/>, reuniam-se à família e aos colonos, para a
                     recitação das preces da tarde. Todos guardam, até hoje, imorredoura lembrança de tudo.</p>
 
-                <TfiLineDashed className="livro__icon-dash"/>
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
-                <p className="livro__text livro__span-bold">4. Seu afeto para com os pais — Dona de casa</p>
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">4. Seu afeto para com os pais — Dona de casa</p>
+                </div>
                 <p className="livro__text"><span className="livro__span-italics">Brígida</span> não era só apóstolo, mas
                     espirituosa e alegre, consagrava aos seus pais o melhor do seu espírito vivo e do seu coração.</p>
                 <p className="livro__text">Era dona de casa perfeita e atraente. Recebia, no estio, sobretudo, as
@@ -214,9 +226,11 @@ function Livro() {
                     alegria na hospitaleira vivenda de seus pais, eis o ideal de <span
                         className="livro__span-italics">Brígida</span>.</p>
 
-                <TfiLineDashed className="livro__icon-dash"/>
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
-                <p className="livro__text livro__span-bold">5. Anjo Consolador e Enfermeira Universal</p>
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">5. Anjo Consolador e Enfermeira Universal</p>
+                </div>
                 <p className="livro__text">Jesus quis, também, visitar a Fazenda... para provar a fidelidade de sua
                     serva.</p>
                 <p className="livro__text">Adoeceu um dos tios de <span
@@ -224,23 +238,100 @@ function Livro() {
                     graças aos esforços e zelo da desvelada sobrinha.</p>
                 <p className="livro__text">A ação benéfica de <span
                     className="livro__span-italics">Brígida</span> ultrapassou, de muito, os limites
-                    de <TfiAngleDoubleLeft className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>, de que era a alma.</p>
-                <p className="livro__text">Os pobres, da Fazenda e circunvizinhança, recorriam a ela, feita já — <TfiAngleDoubleLeft className="livro__icon"/>Enfermeira-universal<TfiAngleDoubleRight className="livro__icon"/>, — por sua lhaneza e habilidade.</p>
-                <p className="livro__text">Acontecia algum infortúnio em casa de um vizinho? Adoecia, subitamente, o filho de um colono? Um moribundo tinha necessidade de cuidados ou palavras de consolação? Recorriam a <span className="livro__span-italics">Dona Brígida</span>.</p>
-                <p className="livro__text">E, a despeito da hora adiantada da noite, <span className="livro__span-italics">Dona Brígida</span> partia, imediatamente, acompanhada de seu pai e munida de sua pequena farmácia. Voltava, somente, depois de ter medicado, consolado e exortado o doente.</p>
+                    de <TfiAngleDoubleLeft className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight
+                        className="livro__icon"/>, de que era a alma.</p>
+                <p className="livro__text">Os pobres, da Fazenda e circunvizinhança, recorriam a ela, feita já
+                    — <TfiAngleDoubleLeft className="livro__icon"/>Enfermeira-universal<TfiAngleDoubleRight
+                        className="livro__icon"/>, — por sua lhaneza e habilidade.</p>
+                <p className="livro__text">Acontecia algum infortúnio em casa de um vizinho? Adoecia, subitamente, o
+                    filho de um colono? Um moribundo tinha necessidade de cuidados ou palavras de consolação? Recorriam
+                    a <span className="livro__span-italics">Dona Brígida</span>.</p>
+                <p className="livro__text">E, a despeito da hora adiantada da noite, <span
+                    className="livro__span-italics">Dona Brígida</span> partia, imediatamente, acompanhada de seu pai e
+                    munida de sua pequena farmácia. Voltava, somente, depois de ter medicado, consolado e exortado o
+                    doente.</p>
 
-                <TfiLineDashed className="livro__icon-dash"/>
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
 
-                <p className="livro__text livro__span-bold">6. Sua vida particular</p>
-                <p className="livro__text">Esta vida de completo esquecimento de si mesma não dera à piedosa jovem nada de austero ou afetado: era simples no modo de trajar, sempre de bom-gosto, como em sua reserva modesta, no seu acolhimento risonho.</p>
-                <p className="livro__text">Organizava, no círculo das pessoas íntimas: jogos, concertos, e piqueniques; eclipsava-se, apenas para ir fiscalizar as empregadas, conforme exigia seu ofício de dona de casa.</p>
-                <p className="livro__text">O isolamento espiritual foi-lhe, sempre um enorme sacrifício. Sentia, vivamente, a privação dos sacramentos e da presença real de Jesus na Eucaristia.</p>
-                <p className="livro__text"></p>
-                <p className="livro__text"></p>
-                <p className="livro__text"></p>
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">6. Sua vida particular</p>
+                </div>
+                <p className="livro__text">Esta vida de completo esquecimento de si mesma não dera à piedosa jovem nada
+                    de austero ou afetado: era simples no modo de trajar, sempre de bom-gosto, como em sua reserva
+                    modesta, no seu acolhimento risonho.</p>
+                <p className="livro__text">Organizava, no círculo das pessoas íntimas: jogos, concertos, e piqueniques;
+                    eclipsava-se, apenas para ir fiscalizar as empregadas, conforme exigia seu ofício de dona de
+                    casa.</p>
+                <p className="livro__text">O isolamento espiritual foi-lhe, sempre um enorme sacrifício. Sentia,
+                    vivamente, a privação dos sacramentos e da presença real de Jesus na Eucaristia.</p>
+                <p className="livro__text">Fazia incidir, pois, suas viagens à cidade mais próxima, com um Domingo ou
+                    dia santa, para ter a dita de ouvir a Santa Missa, confessar-se e comungar.</p>
+                <p className="livro__text">Reunia-se a outras <TfiAngleDoubleLeft className="livro__icon"/>Filhas de
+                    Maria<TfiAngleDoubleRight className="livro__icon"/>, vindas de fazendas vizinhas e juntas entoavam
+                    belos cânticos e recitavam o <TfiAngleDoubleLeft className="livro__icon"/>Ofício de Nossa
+                    Senhora<TfiAngleDoubleRight className="livro__icon"/>.</p>
+                <p className="livro__text">Descobrira, nesse meio fervoroso, o elemento próprio para formar um
+                    centro <TfiAngleDoubleLeft className="livro__icon"/>Noelista<TfiAngleDoubleRight
+                        className="livro__icon"/> e para unir melhor suas forças para o bem.</p>
+                <p className="livro__text">Empregara, nesta obra, as últimas reservas de sua alma ardente.</p>
+                <p className="livro__text">Uma semana antes de morrer, participou, com suas companheiras, numa procissão
+                    da Assunção, depois de ter feito, cedinho, sua última Comunhão, sem sequer pressentir o seu fim
+                    próximo.</p>
+
+                {/*<TfiLineDashed className="livro__icon-dash"/>*/}
+
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">7. Sua morte</p>
+                </div>
+                <p className="livro__text"><span className="livro__span-italics">Jesus</span>, cobiçoso dessa alma, veio
+                    buscá-la, não imprevistamente, mas tão depressa, que três dias bastaram a transplantar esse lírio
+                    para os jardins do <span
+                        className="livro__span-italics">Paraíso</span>.</p>
+                <p className="livro__text">Um sacerdote lhe administrou a Extrema-Unção.</p>
+                <p className="livro__text">Não é esta a recompensa prometida aos misericordiosos?...</p>
+                <p className="livro__text">A notícia de sua morte foi recebida com pesar geral.</p>
+                <p className="livro__text">Todos os que ela havia socorrido, amado ou alegrado lhe deram a paga de seus
+                    fervorosos sufrágios e preces.</p>
+                <p className="livro__text">Seu leito mortuário, cercado de flores, espalhava a calma e a paz.</p>
+                <p className="livro__text"><span className="livro__span-italics">Brígida</span>, depois de morta,
+                    continua caridosa.</p>
+                <p className="livro__text">Seus pais foram os primeiros beneficiados, pois, na aspereza de sua mágoa,
+                    tinham a força de repetir heroicamente: <TfiAngleDoubleLeft className="livro__icon"/>Sagrado Coração
+                    de Jesus, nós vos confiamos nossa filha<TfiAngleDoubleRight className="livro__icon"/>.</p>
+                <p className="livro__text">O longo cortejo, que acompanhou seu corpo inerte à sepultura, desenrolou-se
+                    silencioso, como o teria desejado <span className="livro__span-italics">Brígida</span>.</p>
+
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">Caro leitor</p>
+                </div>
+                <p className="livro__text">Esta biografia não confirma bem o título de — Anjo e Apóstolo — atribuído
+                    à <span className="livro__span-italics">Brígida</span>?</p>
             </div>
+            {/*<div className="livro__row text livro_first-rows">*/}
+            {/*    <TextImageSource {...imgHr1} />*/}
+            {/*</div>*/}
             <div className="livro__row text">
-                <p className="livro__text"></p>
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">EPÍLOGO</p>
+                    <p className="livro__text">(Do tradutor)</p>
+                    <p className="livro__text livro__span-bold">I</p>
+                </div>
+                <p className="livro__text">Esta singela biografia nos mostra como <span className="livro__span-italics">Brígida</span> amou a Jesus e soube com Ele viver, escondida no Coração de Deus — a própria Caridade — <TfiAngleDoubleLeft className="livro__icon"/>Deus caritas est<TfiAngleDoubleRight className="livro__icon"/>.</p>
+                <p className="livro__text">Está agora, esperamos, na bem-aventurança, desdobrando a auriflama de suas virtudes, intercedendo por nós, os que lutamos neste vale de lágrimas, e convidando-nos a irmos participar, também, de sua ventura imensa entre os eleitos do Senhor.</p>
+
+                <div className="livro__chapter-title">
+                    <p className="livro__text livro__span-bold">II</p>
+                </div>
+                <p className="livro__text">Quem passa, hoje, por <TfiAngleDoubleLeft className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>, tem a impressão de que as árvores da Fazenda se transformaram em ciprestes...</p>
+                <p className="livro__text">Povoam-na fundos silêncios... Pairam tristezas e saudades, em derredor, sobretudo, depois que os pais de <span className="livro__span-italics">Brígida</span> se transferiram para Além Paraíba.</p>
+                <p className="livro__text">A plangência do sabiá, nos laranjais daquele ermo, melancoliza os dias...</p>
+                <p className="livro__text">E cria as noites de gemidos, o piar dos mochos...</p>
+                <p className="livro__text">A aragem mansa segreda mil soluços no beiral do telhado, entoando nênias saudosas, para não despertar o sono de <span className="livro__span-italics">Brígida</span>... Mas <span className="livro__span-italics">Brígida</span> não mais repousa em seu delicado leito, e sim, no Cemitério de Angustura, em simples, porém artístico mausoléu, tributo de piedade e gratidão de seus pais.</p>
+                <p className="livro__text">Caraça, 2-11-33</p>
+            </div>
+            <div className="livro__row text livro_first-rows">
+                <TextImageSource {...imgHr1} />
+                <div className="separator-space"></div>
             </div>
             <div className="livro__row">
                 <p className="livro__subsubtitle">Tipografia "Vozes de Petrópolis",</p>
