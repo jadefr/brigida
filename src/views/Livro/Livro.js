@@ -46,9 +46,8 @@ function Livro() {
                 </div>
                 <p className="livro__text">Santa Teresinha do Menino Jesus nasceu na cidade de Alençon (França), no dia
                     2 de Janeiro de 1873.</p>
-                <p className="livro__text">Amou muito a Jesus e a Maria Imaculada.<TfiAngleDoubleLeft
-                    className="livro__icon"/>Meu Jesus, eu Vos amo e a Vós me consagro<TfiAngleDoubleRight
-                    className="livro__icon"/>.</p>
+                <p className="livro__text">Amou muito a Jesus e a Maria Imaculada.<br/><TfiAngleDoubleLeft
+                    className="livro__icon"/>Meu Jesus, eu Vos amo e a Vós me consagro<TfiAngleDoubleRight className="livro__icon"/>.</p>
                 <p className="livro__text"><TfiAngleDoubleLeft className="livro__icon"/>Quero fazer o bem sobre a
                     terra<TfiAngleDoubleRight className="livro__icon"/>.</p>
                 <p className="livro__text">Morreu no dia 30 de Setembro de 1897 — na idade de 24 anos</p>
