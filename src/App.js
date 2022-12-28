@@ -5,6 +5,7 @@ import Home from "./views/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Livro from "./views/Livro/Livro";
 import Gruta from "./views/Gruta/Gruta";
+import Testemunho from "./views/Testemunho/Testemunho";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
               <Route path='/' exact element={<Home/>} />
               <Route path='/livro' element={<Livro/>} />
               <Route path='/gruta' element={<Gruta/>} />
+              <Route path='/testemunho' element={<Testemunho/>} />
           </Routes>
           <Footer/>
       </Router>

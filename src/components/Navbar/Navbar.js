@@ -60,6 +60,11 @@ function Navbar() {
                             Livro
                         </Link>
                     </li>
+                    <li className="nav-item">
+                        <Link to='/testemunho' className="nav-links noSelect" onClick={closeMobileMenu}>
+                            Testemunho
+                        </Link>
+                    </li>
                 </ul>
             </div>
         </div>

@@ -1,0 +1,37 @@
+.testemunho__row {
+    padding: 0 11%;
+}
+
+.testemunho__title {
+    padding-top: 2em;
+    /*padding-bottom: 0.5em;*/
+    font-weight: bold;
+}
+
+.testemunho__span-italics {
+    font-style: italic;
+}
+
+@media (min-width: 1460px) {
+    .testemunho__row {
+        padding: 0 25%;
+    }
+}
+
+@media (max-width: 600px) {
+    .testemunho__row {
+        padding: 0 2%;
+    }
+
+    .testemunho__text-row {
+        padding: 0 5%;
+    }
+
+    .testemunho__last-text {
+        padding-bottom: 40px;
+    }
+
+    .testemunho__placa-text {
+        padding: 0 9%;
+    }
+}
