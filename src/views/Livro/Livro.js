@@ -13,15 +13,11 @@ function Livro() {
                 <h2 className="livro__subtitle">Traduzida do Francês pelo Padre Oscar Figueira de Aquino</h2>
             </div>
             <div className="livro__row text livro_first-rows">
-                {/*<TextImageSource {...imgHr1} />*/}
-                <p className="livro__text">Aos bondosos Tios</p>
-                <p className="livro__text">Chiquinho e Nhánhá</p>
-                <p className="livro__text">oferece o grato sobrinho</p>
+                <p className="livro__text">Aos bondosos Tios Chiquinho e Nhánhá;</p>
+                <p className="livro__signature">oferece o grato sobrinho,</p>
                 <br/>
-                <p className="livro__text">Pe. Oscar Figueira de Aquino</p>
-                <br/>
-                <p className="livro__text">Caraça, 2-11-33.</p>
-                {/*<TextImageSource {...imgHr1} />*/}
+                <p className="livro__signature">Pe. Oscar Figueira de Aquino</p>
+                <p className="livro__signature">Caraça, 2-11-33.</p>
                 <div className="separator">
                     <hr></hr>
                 </div>
@@ -310,15 +306,16 @@ function Livro() {
                 <p className="livro__text">A plangência do sabiá, nos laranjais daquele ermo, melancoliza os dias...</p>
                 <p className="livro__text">E cria as noites de gemidos, o piar dos mochos...</p>
                 <p className="livro__text">A aragem mansa segreda mil soluços no beiral do telhado, entoando nênias saudosas, para não despertar o sono de <span className="livro__span-italics">Brígida</span>... Mas <span className="livro__span-italics">Brígida</span> não mais repousa em seu delicado leito, e sim, no Cemitério de Angustura, em simples, porém artístico mausoléu, tributo de piedade e gratidão de seus pais.</p>
-                <p className="livro__text">Caraça, 2-11-33</p>
-            </div>
-            <div className="livro__row text livro_first-rows">
-                <TextImageSource {...imgHr1} />
-                <div className="separator-space"></div>
+                <br/>
+                <p className="livro__signature">Caraça, 2-11-33</p>
             </div>
             <div className="livro__row">
                 <p className="livro__subsubtitle">Tipografia "Vozes de Petrópolis",</p>
                 <p className="livro__subsubtitle">Petrópolis</p>
+            </div>
+            <div className="livro__row text livro_first-rows">
+                <div className="separator-space"></div>
+                <TextImageSource {...imgHr1} />
             </div>
         </div>
     );

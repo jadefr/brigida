@@ -12,6 +12,10 @@
     text-align: center;
 }
 
+.livro__signature {
+    padding-bottom: 0.5rem;
+}
+
 .livro__text {
     font-family: 'Lato', sans-serif;
     font-size: 1.2rem;
