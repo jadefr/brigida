@@ -1,9 +1,9 @@
 import React from 'react';
 import './Livro.css'
-import {imgHr1} from "./LivroData";
+import { imgHr1 } from "./LivroData";
 import TextImageSource from "../../components/TextImageSource/TextImageSource";
-import {TfiAngleDoubleLeft, TfiAngleDoubleRight, TfiLineDashed} from "react-icons/tfi";
-import {GiIronCross} from "react-icons/gi";
+import { TfiAngleDoubleLeft, TfiAngleDoubleRight } from "react-icons/tfi";
+import { GiIronCross } from "react-icons/gi";
 
 function Livro() {
     return (
@@ -15,7 +15,7 @@ function Livro() {
             <div className="livro__row text livro_first-rows">
                 <p className="livro__text">Aos bondosos Tios Chiquinho e Nhánhá;</p>
                 <p className="livro__signature">oferece o grato sobrinho,</p>
-                <br/>
+                <br></br>
                 <p className="livro__signature">Pe. Oscar Figueira de Aquino</p>
                 <p className="livro__signature">Caraça, 2-11-33.</p>
                 <div className="separator">
@@ -27,7 +27,7 @@ function Livro() {
                 <p className="livro__text"><span className="livro__span-italics">Consummatus in brevi, explevit tempora multa</span>.
                 </p>
                 <p className="livro__text">(Liv da sabedoria)</p>
-                <br/>
+                <br></br>
                 <p className="livro__text"><span className="livro__span-italics">Adormecida na flôr da idade, sua vida foi longa em atos de virtudes</span>.
                 </p>
                 <div className="separator">
@@ -42,7 +42,7 @@ function Livro() {
                 </div>
                 <p className="livro__text">Santa Teresinha do Menino Jesus nasceu na cidade de Alençon (França), no dia
                     2 de Janeiro de 1873.</p>
-                <p className="livro__text">Amou muito a Jesus e a Maria Imaculada.<br/><TfiAngleDoubleLeft
+                <p className="livro__text">Amou muito a Jesus e a Maria Imaculada.<br></br><TfiAngleDoubleLeft
                     className="livro__icon"/>Meu Jesus, eu Vos amo e a Vós me consagro<TfiAngleDoubleRight className="livro__icon"/>.</p>
                 <p className="livro__text"><TfiAngleDoubleLeft className="livro__icon"/>Quero fazer o bem sobre a
                     terra<TfiAngleDoubleRight className="livro__icon"/>.</p>
@@ -306,7 +306,7 @@ function Livro() {
                 <p className="livro__text">A plangência do sabiá, nos laranjais daquele ermo, melancoliza os dias...</p>
                 <p className="livro__text">E cria as noites de gemidos, o piar dos mochos...</p>
                 <p className="livro__text">A aragem mansa segreda mil soluços no beiral do telhado, entoando nênias saudosas, para não despertar o sono de <span className="livro__span-italics">Brígida</span>... Mas <span className="livro__span-italics">Brígida</span> não mais repousa em seu delicado leito, e sim, no Cemitério de Angustura, em simples, porém artístico mausoléu, tributo de piedade e gratidão de seus pais.</p>
-                <br/>
+                <br></br>
                 <p className="livro__signature">Caraça, 2-11-33</p>
             </div>
             <div className="livro__row">

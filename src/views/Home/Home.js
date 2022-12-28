@@ -1,8 +1,7 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import './Home.css';
 import ImageSource from "../../components/ImageSource/ImageSource";
 import {imgBrigida} from "./HomeData";
-
 
 function Home() {
     return (
