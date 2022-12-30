@@ -7,7 +7,7 @@ function Testemunho() {
             <div className="testemunho__row testemunho__text-row">
                 <p className="text">A Senhora Malvina Zanconato, conhecida por Dona Malvina, nasceu em --- e faleceu em
                     --- . Conviveu com os pais de <span className="testemunho__span-italics">Brigida</span></p>
-                <p className="text">Dona Malvina concedeu uma entrevista a Denis Pitassi, pouco tempo antes de seu
+                <p className="text">Dona Malvina concedeu-nos uma entrevista pouco tempo antes de seu
                     falecimento.</p>
                 <p className="text">Leia a entrevista a seguir.</p>
             </div>
