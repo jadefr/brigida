@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 1rem 20%;
+    border: 1px solid rgba(201, 198, 198, 0.34);
+    border-radius: 10px;
+}
+
+.card-title {
+    padding: 1rem;
+}
+
+.card-text {
+    padding: 1rem;
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        margin: 1rem 2%;
+    }
+}

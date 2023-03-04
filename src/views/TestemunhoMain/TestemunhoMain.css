@@ -1,0 +1,31 @@
+.testemunho-main__container {
+    display: flex;
+    flex-direction: row;
+    padding: 0 5rem;
+}
+
+.testemunho-main__row {
+    /*padding: 0 20%;*/
+    /*font-family: 'Lato', sans-serif;*/
+    /*text-align: center;*/
+}
+
+.testemunho-main__cards {
+
+}
+
+.testemunho-main__img {
+    width: 400px;
+    height: 400px;
+    max-width: 40%;
+    opacity: 50%;
+}
+
+/**
+TODO remover o styling to image-souce__img
+ */
+/*.image-source__img {*/
+/*    !*max-width: 40%;*!*/
+/*    opacity: 30%;*/
+/*    border-radius: 5px;*/
+/*}*/
