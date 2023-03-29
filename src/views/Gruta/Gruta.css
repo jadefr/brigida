@@ -1,5 +1,5 @@
 .gruta__row {
-    padding: 0 11%;
+    padding: 0 22%;
 }
 
 .gruta__placa-text {
@@ -11,7 +11,7 @@
 
 @media (min-width: 1460px) {
     .gruta__row {
-        padding: 0 25%;
+        padding: 0 30%;
     }
 }
 

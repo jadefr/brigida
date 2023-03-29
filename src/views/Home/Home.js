@@ -14,7 +14,7 @@ function Home() {
                 <p className="text">Passou sua curta existência fazendo o bem. Amou muito a Jesus e a Maria Imaculada.</p>
                 <p className="text">Em seu leito mortuário, Brígida sorria e espalhava a calma e a paz. Morreu no dia 24 de Agosto de 1930, aos 28 anos, em odor de santidade. </p>
                 <p className="text">Quase cem anos após sua morte, Brígida continua a interceder por Angustura e àqueles que pedem sua ajuda.</p>
-                <p className="text">Uma reprodução de seu último retrato (imagem acima) se encontra exposta na sacristia da Igreja Madre de Deus de Angustura.</p>
+                {/*<p className="text">Uma reprodução de seu último retrato (imagem acima) se encontra exposta na sacristia da Igreja Madre de Deus de Angustura.</p>*/}
             </div>
         </div>
     );

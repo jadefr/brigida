@@ -15,8 +15,10 @@
     margin: 0 2px;
 }
 .footer-text {
-    color: rgba(204, 204, 204, 0.91);
+    color: rgb(204, 204, 204);
     font-style: italic;
+    font-weight: 300;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media (max-width: 520px){

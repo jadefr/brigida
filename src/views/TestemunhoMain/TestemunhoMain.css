@@ -1,17 +1,20 @@
 .testemunho-main__container {
     display: flex;
-    flex-direction: row;
-    padding: 0 5rem;
+    flex-direction: row-reverse;
+    /*padding: 0 5rem;*/
+    padding-top: 0;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 5rem;
 }
 
 .testemunho-main__row {
-    /*padding: 0 20%;*/
     /*font-family: 'Lato', sans-serif;*/
     /*text-align: center;*/
 }
 
 .testemunho-main__cards {
-
+    padding: 20% 10%;
 }
 
 .testemunho-main__img {
@@ -25,7 +28,7 @@
 TODO remover o styling to image-souce__img
  */
 /*.image-source__img {*/
-/*    !*max-width: 40%;*!*/
-/*    opacity: 30%;*/
-/*    border-radius: 5px;*/
+    /*max-width: 40%;*/
+    /*opacity: 30%;*/
+    /*border-radius: 5px;*/
 /*}*/

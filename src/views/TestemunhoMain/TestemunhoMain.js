@@ -1,17 +1,16 @@
 import React from "react";
 import './TestemunhoMain.css';
 import Card from "../../components/Card/Card";
-import ImageSource from "../../components/ImageSource/ImageSource";
-import {imgLourdes} from "./TestemunhoMainData";
+import {imgLourdes, historias, cura} from "./TestemunhoMainData";
+import TestemunhoImageSource from "../../components/TestemunhoImageSource/TestemunhoImageSource";
 
 function TestemunhoMain() {
     return (
         <div className="testemunho-main__container">
-            <ImageSource className="testemunho-main__img" {...imgLourdes} />
+            <TestemunhoImageSource className="testemunho-image-source__img" {...imgLourdes} />
             <div className="testemunho-main__cards">
-                <Card />
-                <Card />
-                <Card />
+                <Card {...cura} />
+                <Card {...historias} />
             </div>
         </div>
     )
