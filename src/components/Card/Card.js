@@ -9,7 +9,7 @@ function Card({
         <div>
             <div className="card-container text">
                 <div className="card-title">
-                    <a href='/'>
+                    <a className="noSelectCard" href='/'>
                         {title}
                     </a>
                 </div>

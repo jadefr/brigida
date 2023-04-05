@@ -12,18 +12,11 @@
     padding: 1rem;
 }
 
-.noSelect {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.noSelect:focus {
-    outline: none !important;
+.noSelectCard {
+    text-decoration: none;
+    color: #666666;
+    justify-self: start;
+    cursor: pointer;
 }
 
 @media (max-width: 600px) {
