@@ -1,4 +1,4 @@
-.testemunho-image-source__img {
+.testemunho-image-source__desktop {
     max-width: 90%;
     padding-left: 30%;
     /*border-radius: 10px;*/
@@ -6,13 +6,13 @@
 }
 
 @media (min-width: 1460px) {
-    .testemunho-image-source__img {
+    .testemunho-image-source__desktop {
         max-width: 80%;
     }
 }
 
 @media (max-width: 700px) {
-    .testemunho-image-source__img {
+    .testemunho-image-source__desktop {
         opacity: 60%;
         max-width: 80%;
     }

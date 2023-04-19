@@ -16,7 +16,6 @@
 }
 
 .text {
-  /*font-family: 'Lato', sans-serif;*/
   font-size: 1.2rem;
   letter-spacing: .02em;
   font-weight: 300;
@@ -71,4 +70,14 @@ hr {
 
 .App {
   text-align: center;
+}
+
+@media (max-width: 600px) {
+  .text {
+    font-size: 1rem;
+    line-height: 1.625rem;
+    margin: 0 auto 20px;
+    padding: 0 5px;
+    text-align: left;
+  }
 }

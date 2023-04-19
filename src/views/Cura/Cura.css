@@ -1,0 +1,19 @@
+.cura__row {
+    padding: 0 22%;
+}
+
+@media (min-width: 1460px) {
+    .cura__row {
+        padding: 0 30%;
+    }
+}
+
+@media (max-width: 600px) {
+    .cura__row {
+        padding: 0 2%;
+    }
+
+    .cura__text-row {
+        padding: 0 5%;
+    }
+}

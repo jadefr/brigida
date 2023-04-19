@@ -57,6 +57,7 @@ function Navbar() {
                     </li>
                     <li className="nav-item">
                         <Link to='/testemunho' className="nav-links noSelect" onClick={closeMobileMenu}>
+                            {/*todo change to testemunhos*/}
                             Testemunho
                         </Link>
                     </li>

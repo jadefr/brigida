@@ -3,13 +3,13 @@ import './Card.css'
 import {Link} from "react-router-dom";
 
 function Card({
-                  title,
+                  title, linkTo
               }) {
     return (
         <div>
             <div className="card-container text">
                 <div className="card-title">
-                    <a className="noSelectCard" href='/'>
+                    <a className="noSelectCard" href={linkTo}>
                         {title}
                     </a>
                 </div>

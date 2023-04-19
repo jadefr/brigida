@@ -13,7 +13,7 @@ function Livro() {
                 <h2 className="livro__subtitle">Traduzida do Francês pelo Padre Oscar Figueira de Aquino</h2>
             </div>
             <div className="livro__row text livro_first-rows">
-                <p className="livro__text">Aos bondosos Tios Chiquinho e Nhánhá;</p>
+                <p className="livro__text livro__text-centered">Aos bondosos Tios Chiquinho e Nhánhá;</p>
                 <p className="livro__signature">oferece o grato sobrinho,</p>
                 <br></br>
                 <p className="livro__signature">Pe. Oscar Figueira de Aquino</p>
@@ -36,9 +36,9 @@ function Livro() {
             </div>
             <div className="livro__row text">
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">PREFÁCIO</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">PREFÁCIO</p>
                     <GiIronCross className="livro__icon"/>
-                    <p className="livro__text livro__span-bold">Um Paralelo</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">Um Paralelo</p>
                 </div>
                 <p className="livro__text">Santa Teresinha do Menino Jesus nasceu na cidade de Alençon (França), no dia
                     2 de Janeiro de 1873.</p>
@@ -72,9 +72,9 @@ function Livro() {
             </div>
             <div className="livro__row text">
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">BRÍGIDA FIGUEIRA</p>
-                    <p className="livro__text">(1902 - 1930)</p>
-                    <p className="livro__text livro__span-bold">I</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">BRÍGIDA FIGUEIRA</p>
+                    <p className="livro__text livro__text-centered">(1902 - 1930)</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">I</p>
                 </div>
                 <p className="livro__text">Levou para o céu a messe já bela do seu apostolado, outra aluna do
                     Colégio <TfiAngleDoubleLeft className="livro__icon"/>Sacré-Coer<TfiAngleDoubleRight
@@ -88,8 +88,8 @@ function Livro() {
             </div>
             <div className="livro__row text">
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">II</p>
-                    <p className="livro__text livro__span-bold">No Colégio</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">II</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">No Colégio</p>
                 </div>
                 <p className="livro__text"><span className="livro__span-italics">Brígida</span> matriculou-se aos 12
                     anos no colégio <TfiAngleDoubleLeft className="livro__icon"/>Sacré-Coer<TfiAngleDoubleRight
@@ -139,8 +139,8 @@ function Livro() {
             </div>
             <div className="livro__row text">
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">III</p>
-                    <p className="livro__text">Dezembro de 1918</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">III</p>
+                    <p className="livro__text livro__text-centered">Dezembro de 1918</p>
                     <p className="livro__text livro__span-bold">1. Sua volta definitiva para <TfiAngleDoubleLeft
                         className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>. Realização de
                         seus sonhos generosos.</p>
@@ -283,7 +283,7 @@ function Livro() {
                     silencioso, como o teria desejado <span className="livro__span-italics">Brígida</span>.</p>
 
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">Caro leitor</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">Caro leitor</p>
                 </div>
                 <p className="livro__text">Esta biografia não confirma bem o título de — Anjo e Apóstolo — atribuído
                     à <span className="livro__span-italics">Brígida</span>?</p>
@@ -291,15 +291,15 @@ function Livro() {
 
             <div className="livro__row text">
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">EPÍLOGO</p>
-                    <p className="livro__text">(Do tradutor)</p>
-                    <p className="livro__text livro__span-bold">I</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">EPÍLOGO</p>
+                    <p className="livro__text livro__text-centered">(Do tradutor)</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">I</p>
                 </div>
                 <p className="livro__text">Esta singela biografia nos mostra como <span className="livro__span-italics">Brígida</span> amou a Jesus e soube com Ele viver, escondida no Coração de Deus — a própria Caridade — <TfiAngleDoubleLeft className="livro__icon"/>Deus caritas est<TfiAngleDoubleRight className="livro__icon"/>.</p>
                 <p className="livro__text">Está agora, esperamos, na bem-aventurança, desdobrando a auriflama de suas virtudes, intercedendo por nós, os que lutamos neste vale de lágrimas, e convidando-nos a irmos participar, também, de sua ventura imensa entre os eleitos do Senhor.</p>
 
                 <div className="livro__chapter-title">
-                    <p className="livro__text livro__span-bold">II</p>
+                    <p className="livro__text livro__span-bold livro__text-centered">II</p>
                 </div>
                 <p className="livro__text">Quem passa, hoje, por <TfiAngleDoubleLeft className="livro__icon"/>Santa Cruz<TfiAngleDoubleRight className="livro__icon"/>, tem a impressão de que as árvores da Fazenda se transformaram em ciprestes...</p>
                 <p className="livro__text">Povoam-na fundos silêncios... Pairam tristezas e saudades, em derredor, sobretudo, depois que os pais de <span className="livro__span-italics">Brígida</span> se transferiram para Além Paraíba.</p>
