@@ -18,3 +18,9 @@
         min-width: 200px;
     }
 }
+@media (max-width: 350px) {
+    .testemunho-image-source__img {
+        padding-left: 0;
+        min-width: 150px;
+    }
+}
