@@ -9,8 +9,7 @@ function TestemunhoMain() {
 
     return (
         <div className="testemunho-main__container">
-            <TestemunhoImageSource className="testemunho-image-source__desktop" {...imgLourdes} />
-            {/*<TestemunhoImageSource className="testemunho-image-source__img" {...imgLourdes} />*/}
+            <TestemunhoImageSource className="testemunho-image-source__img" {...imgLourdes} />
             <div className="testemunho-main__cards">
                 <Card {...cura} />
                 <Card {...historias} />

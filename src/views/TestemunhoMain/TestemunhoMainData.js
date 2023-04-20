@@ -1,13 +1,8 @@
 export const imgLourdes = {
     src: 'images/lourdes.png',
     alt: '',
-    text: ''
-};
-
-export const imgLourdesDetail = {
-    src: 'images/lourdes-detail.png',
-    alt: '',
-    text: ''
+    text: '',
+    linkTo: '/gruta'
 };
 
 export const cura = {
