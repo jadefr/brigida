@@ -7,6 +7,7 @@ import Livro from "./views/Livro/Livro";
 import Gruta from "./views/Gruta/Gruta";
 import Testemunho from "./views/Testemunho/Testemunho";
 import TestemunhoMain from "./views/TestemunhoMain/TestemunhoMain";
+import TestemunhoGroup from "./views/TestemunhoGroup/TestemunhoGroup";
 import Cura from "./views/Cura/Cura";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <Route path='/test' element={<TestemunhoMain/>} />
               <Route path='/cura' element={<Cura/>} />
               <Route path='/testemunho' element={<Testemunho/>} />
+              <Route path='/testgr' element={<TestemunhoGroup/>} />
           </Routes>
           <Footer/>
       </Router>
