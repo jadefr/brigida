@@ -38,7 +38,7 @@ function Navbar() {
 
 
     return (
-        <div className={`navbar ${show && 'hidden'}`}>
+        <div className={`navbar ${show ? 'hidden' : ''}`}>
             <div className="navbar__container container">
 
                 <Link to='/' className="navbar-logo noSelect" onClick={closeMobileMenu}>
