@@ -11,10 +11,12 @@ import TestemunhoGroup from "./views/TestemunhoGroup/TestemunhoGroup";
 import Cura from "./views/Cura/Cura";
 import CookiesModal from "./components/CookiesModal/CookiesModal";
 import CookiesPolicy from "./views/CookiesPolicy/CookiesPolicy";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
       <Router>
+          <ScrollToTop/>
           <Navbar/>
           <Routes>
               <Route path='/' element={<Home/>} />
