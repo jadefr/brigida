@@ -23,11 +23,11 @@ export const testimonialData = [
         title: 'Dona Malvina',
         image: imgDonaMalvina,
         linkTo: '/testemunho/dona-malvina',
-        text: 'A Senhora Malvina Zanconato, conhecida como Dona Malvina, nasceu no ano de 1926 e faleceu em 2020. Conviveu com os pais de Brigida. Dona Malvina concedeu-nos uma entrevista pouco tempo antes de seu falecimento',
+        text: 'Por vezes ela (Brígida) ainda bem pequena pegava seu almoço ou jantar e ia escondida dividir com os filhos dos colonos da fazenda pois sabia que não faltava alimento para eles mas como na sua casa sempre tinha variedades podia partilhar com eles. Sempre foi de muita oração, tanto que na adolescência foi catequista e ajudou na formação de muitos dos colonos da fazenda onde morava quanto da região. Era uma pessoa que desde criança só se ocupava em fazer o bem.',
         fullContent: [
             {
                 type: 'intro',
-                content: 'A Senhora Malvina Zanconato, conhecida como Dona Malvina, nasceu no ano de 1926 e faleceu em 2020. Conviveu com os pais de Brigida. Dona Malvina concedeu-nos uma entrevista pouco tempo antes de seu falecimento. Leia a entrevista a seguir.'
+                content: 'A Senhora Malvina Zanconato, conhecida como Dona Malvina, nasceu no ano de 1926 e faleceu em 2020. Conviveu com os pais de Brigida. Dona Malvina concedeu uma entrevista a Denis Pitassi pouco tempo antes de seu falecimento. Leia a entrevista a seguir.'
             },
             {
                 type: 'question',
