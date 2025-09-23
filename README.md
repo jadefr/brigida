@@ -1,6 +1,7 @@
 # Brigida
 
 A modern React-based website built with Create React App.
+Partly done with AI.
 
 ## 🚀 Features
 

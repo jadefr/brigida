@@ -5,9 +5,10 @@ import Home from "./views/Home/Home";
 import Footer from "./components/Footer/Footer";
 import Livro from "./views/Livro/Livro";
 import Gruta from "./views/Gruta/Gruta";
-import Testemunho from "./views/Testemunho/Testemunho";
 import TestemunhoMain from "./views/TestemunhoMain/TestemunhoMain";
 import TestemunhoGroup from "./views/TestemunhoGroup/TestemunhoGroup";
+import DonaMalvina from "./views/TestemunhoIndividual/DonaMalvina";
+import SeuLele from "./views/TestemunhoIndividual/SeuLele";
 import Cura from "./views/Cura/Cura";
 import CookiesModal from "./components/CookiesModal/CookiesModal";
 import CookiesPolicy from "./views/CookiesPolicy/CookiesPolicy";
@@ -24,9 +25,10 @@ function App() {
               <Route path='/gruta' element={<Gruta/>} />
               <Route path='/test' element={<TestemunhoMain/>} />
               <Route path='/cura' element={<Cura/>} />
-              <Route path='/testemunho' element={<Testemunho/>} />
+              <Route path='/testemunho/dona-malvina' element={<DonaMalvina/>} />
+              <Route path='/testemunho/seu-lele' element={<SeuLele/>} />
               <Route path='/cookies-policy' element={<CookiesPolicy/>} />
-              <Route path='/testgr' element={<TestemunhoGroup/>} />
+              <Route path='/testemunhos' element={<TestemunhoGroup/>} />
           </Routes>
           <Footer/>
           <CookiesModal/>

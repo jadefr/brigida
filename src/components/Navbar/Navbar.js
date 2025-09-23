@@ -77,9 +77,8 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className="nav-item">
-                        <Link to='/testemunho' className="nav-links noSelect" onClick={closeMobileMenu}>
-                            {/*todo change to testemunhos*/}
-                            Testemunho
+                        <Link to='/testemunhos' className="nav-links noSelect" onClick={closeMobileMenu}>
+                            Testemunhos
                         </Link>
                     </li>
                     <li className="nav-item">
