@@ -6,11 +6,3 @@ function SeuLele() {
 }
 
 export default SeuLele;
-
-
-
-
-
-
-
-

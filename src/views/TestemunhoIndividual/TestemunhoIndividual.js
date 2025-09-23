@@ -1,7 +1,6 @@
 import React from 'react';
 import './TestemunhoIndividual.css';
 import { testimonialData } from '../TestemunhoGroup/TestemunhoGroupData';
-import useSEO from '../../hooks/useSEO';
 
 function TestemunhoIndividual({ testimonialId }) {
     // Find the testimonial by ID
@@ -11,18 +10,6 @@ function TestemunhoIndividual({ testimonialId }) {
     const testimonial = testimonialData.find(t => t.id === parseInt(testimonialId));
     
     console.log('Found testimonial:', testimonial);
-
-    const pageTitle = testimonial ? `${testimonial.title} | Testemunho | Brígida Figueira` : 'Testemunho | Brígida Figueira';
-    const pageDescription = testimonial ? testimonial.text : 'Testemunho não encontrado';
-    const pageImage = testimonial?.image?.src;
-    const pageUrl = typeof window !== 'undefined' ? window.location.href : undefined;
-
-    useSEO({
-        title: pageTitle,
-        description: pageDescription,
-        url: pageUrl,
-        image: pageImage
-    });
     
     if (!testimonial) {
         return <div>Testemunho não encontrado</div>;

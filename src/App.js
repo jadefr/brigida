@@ -25,8 +25,8 @@ function App() {
               <Route path='/gruta' element={<Gruta/>} />
               <Route path='/test' element={<TestemunhoMain/>} />
               <Route path='/cura' element={<Cura/>} />
-              <Route path='/testemunho/dona-malvina' element={<DonaMalvina/>} />
-              <Route path='/testemunho/sr-lele' element={<SeuLele/>} />
+              <Route path='/testemunhos/dona-malvina' element={<DonaMalvina/>} />
+              <Route path='/testemunhos/sr-lele' element={<SeuLele/>} />
               <Route path='/cookies-policy' element={<CookiesPolicy/>} />
               <Route path='/testemunhos' element={<TestemunhoGroup/>} />
           </Routes>

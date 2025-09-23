@@ -10,19 +10,13 @@ export const imgSeuLele = {
     text: 'Sr. Lelê'
 };
 
-export const imgLourdes = {
-    src: 'images/lourdes.jpg',
-    alt: 'Lourdes',
-    text: 'Lourdes'
-};
-
 // Array of all testimonial data for easier mapping
 export const testimonialData = [
     {
         id: 1,
         title: 'Dona Malvina',
         image: imgDonaMalvina,
-        linkTo: '/testemunho/dona-malvina',
+        linkTo: '/testemunhos/dona-malvina',
         text: 'Por vezes ela (Brígida) ainda bem pequena pegava seu almoço ou jantar e ia escondida dividir com os filhos dos colonos da fazenda pois sabia que não faltava alimento para eles mas como na sua casa sempre tinha variedades podia partilhar com eles. Sempre foi de muita oração, tanto que na adolescência foi catequista e ajudou na formação de muitos dos colonos da fazenda onde morava quanto da região. Era uma pessoa que desde criança só se ocupava em fazer o bem.',
         fullContent: [
             {
@@ -83,7 +77,7 @@ export const testimonialData = [
         id: 2,
         title: 'Sr. Lelê',
         image: imgSeuLele,
-        linkTo: '/testemunho/seu-lele',
+        linkTo: '/testemunhos/sr-lele',
         text: 'Foi através de uma amiga da cidade de Estrela Dalva-MG que me presenteou um dia com a sua biografia. Fiquei encantado em saber que a Bidinha que ouvia falar tinha uma história assim.',
         fullContent: [
             {
