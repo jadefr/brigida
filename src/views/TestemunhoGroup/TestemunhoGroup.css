@@ -15,6 +15,10 @@
     align-items: center;
 }
 
+.testemunho-group__card:last-child {
+    margin-top: 2em;
+}
+
 .testemunho-group__img {
     display: flex;
     justify-content: center;
@@ -74,4 +78,57 @@
 
 .testemunho-group__read-more:hover {
     color: #666;
+}
+
+/* responsive adjustments */
+@media (max-width: 1100px) {
+    .testemunho-group__container {
+        padding: 0 12%;
+    }
+}
+
+@media (max-width: 800px) {
+    .testemunho-group__container {
+        padding: 0 6%;
+        gap: 16px;
+    }
+
+    .testemunho-group__card {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        padding: 16px;
+    }
+
+    .testemunho-group__img {
+        justify-content: flex-start;
+    }
+
+    .testemunho-group__img img {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .testemunho-group__title {
+        font-size: 1.25rem;
+        margin-bottom: 10px;
+    }
+
+    .testemunho-group__content {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .testemunho-group__container {
+        padding: 0 12px;
+    }
+
+    .testemunho-group__card {
+        padding: 14px;
+        border-radius: 8px;
+    }
+
+    .testemunho-group__title {
+        font-size: 1.125rem;
+    }
 }
