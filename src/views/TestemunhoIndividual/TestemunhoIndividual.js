@@ -1,6 +1,7 @@
 import React from 'react';
 import './TestemunhoIndividual.css';
 import { testimonialData } from '../TestemunhoGroup/TestemunhoGroupData';
+import useSEO from '../../hooks/useSEO';
 
 function TestemunhoIndividual({ testimonialId }) {
     // Find the testimonial by ID
@@ -14,6 +15,13 @@ function TestemunhoIndividual({ testimonialId }) {
     if (!testimonial) {
         return <div>Testemunho não encontrado</div>;
     }
+
+    useSEO({
+        title: `${testimonial.title} | Testemunho | Brígida Figueira`,
+        description: testimonial.text,
+        url: typeof window !== 'undefined' ? window.location.href : undefined,
+        image: testimonial.image?.src
+    });
 
     const renderContent = (item, index) => {
         switch (item.type) {

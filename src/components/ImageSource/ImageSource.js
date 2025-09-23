@@ -9,7 +9,7 @@ function ImageSource({
     return (
         <div>
             <div className="image-source__container">
-                <img src={src} alt={alt} rel="preload" as="image" className="image-source__img"/>
+                <img src={src} alt={alt} loading="lazy" decoding="async" className="image-source__img"/>
                 <div className="image-source__title">{text}</div>
             </div>
         </div>

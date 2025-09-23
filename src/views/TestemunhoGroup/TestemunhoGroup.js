@@ -2,6 +2,7 @@ import './TestemunhoGroup.css';
 import React, { useState } from "react";
 import ImageSource from "../../components/ImageSource/ImageSource";
 import { testimonialData } from "./TestemunhoGroupData";
+import useSEO from "../../hooks/useSEO";
 
 // Helper function to truncate text to approximately 30 words
 const truncateText = (text, wordLimit = 30) => {
@@ -13,6 +14,12 @@ const truncateText = (text, wordLimit = 30) => {
 };
 
 function TestemunhoGroup() {
+    useSEO({
+        title: 'Testemunhos | Brígida Figueira',
+        description: 'Leia depoimentos e entrevistas sobre a vida e a devoção a Brígida Figueira.',
+        url: typeof window !== 'undefined' ? window.location.href : undefined
+    });
+
     return (
         <div className="testemunho-group__container">
             {testimonialData.map((testimonial) => (
