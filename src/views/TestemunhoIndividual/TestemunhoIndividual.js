@@ -11,17 +11,22 @@ function TestemunhoIndividual({ testimonialId }) {
     const testimonial = testimonialData.find(t => t.id === parseInt(testimonialId));
     
     console.log('Found testimonial:', testimonial);
+
+    const pageTitle = testimonial ? `${testimonial.title} | Testemunho | Brígida Figueira` : 'Testemunho | Brígida Figueira';
+    const pageDescription = testimonial ? testimonial.text : 'Testemunho não encontrado';
+    const pageImage = testimonial?.image?.src;
+    const pageUrl = typeof window !== 'undefined' ? window.location.href : undefined;
+
+    useSEO({
+        title: pageTitle,
+        description: pageDescription,
+        url: pageUrl,
+        image: pageImage
+    });
     
     if (!testimonial) {
         return <div>Testemunho não encontrado</div>;
     }
-
-    useSEO({
-        title: `${testimonial.title} | Testemunho | Brígida Figueira`,
-        description: testimonial.text,
-        url: typeof window !== 'undefined' ? window.location.href : undefined,
-        image: testimonial.image?.src
-    });
 
     const renderContent = (item, index) => {
         switch (item.type) {
