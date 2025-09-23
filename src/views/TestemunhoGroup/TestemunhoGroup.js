@@ -17,11 +17,13 @@ function TestemunhoGroup() {
         <div className="testemunho-group__container">
             {testimonialData.map((testimonial) => (
                 <div key={testimonial.id} className="testemunho-group__card">
-                    <div className="testemunho-group__img">
+                    <a href={testimonial.linkTo} className="testemunho-group__img" aria-label={`Abrir ${testimonial.title}`}>
                         <ImageSource src={testimonial.image.src} alt={testimonial.image.alt} />
-                    </div>
+                    </a>
                     <div className="testemunho-group__text">
-                        <h3 className="testemunho-group__title">{testimonial.title}</h3>
+                        <h3 className="testemunho-group__title">
+                            <a href={testimonial.linkTo}>{testimonial.title}</a>
+                        </h3>
                         <p className="testemunho-group__content">
                             {truncateText(testimonial.text)}
                         </p>

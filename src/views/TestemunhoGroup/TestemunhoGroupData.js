@@ -6,8 +6,8 @@ export const imgDonaMalvina = {
 
 export const imgSeuLele = {
     src: 'images/seu_lele.jpg',
-    alt: 'Seu Lele',
-    text: 'Seu Lele'
+    alt: 'Sr. Lele',
+    text: 'Sr. Lelê'
 };
 
 export const imgLourdes = {
@@ -81,14 +81,14 @@ export const testimonialData = [
     },
     {
         id: 2,
-        title: 'Seu Lelê',
+        title: 'Sr. Lelê',
         image: imgSeuLele,
         linkTo: '/testemunho/seu-lele',
         text: 'Foi através de uma amiga da cidade de Estrela Dalva-MG que me presenteou um dia com a sua biografia. Fiquei encantado em saber que a Bidinha que ouvia falar tinha uma história assim.',
         fullContent: [
             {
                 type: 'intro',
-                content: 'Confira a seguir a entrevista concedida pelo senhor Wilson Madeira - conhecido como Seu Lelê - a Denis Pitassi no ano de ****.'
+                content: 'Confira a seguir a entrevista concedida pelo senhor Wilson Madeira - conhecido como Sr. Lelê - a Denis Pitassi no ano de ****.'
             },
             {
                 type: 'question',

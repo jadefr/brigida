@@ -44,6 +44,15 @@
     text-align: left;
 }
 
+.testemunho-group__title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.testemunho-group__title a:hover {
+    text-decoration: underline;
+}
+
 .testemunho-group__content {
     margin: 0 0 15px 0;
     line-height: 1.6;
