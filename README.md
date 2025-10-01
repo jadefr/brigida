@@ -81,12 +81,12 @@ Runs the test suite using Jest and React Testing Library.
 
 ```
 brigida/
-├── public/                 # Static assets
+├── public/                # Static assets
 ├── src/                   # Source code
 ├── build/                 # Production build (generated)
 ├── package.json           # Dependencies and scripts
 ├── .nvmrc                 # Node.js version specification
-└── README.md             # This file
+└── README.md              # This file
 ```
 
 ## 🔧 Technology Stack

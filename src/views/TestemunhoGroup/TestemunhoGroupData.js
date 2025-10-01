@@ -10,6 +10,12 @@ export const imgSeuLele = {
     text: 'Sr. Lelê'
 };
 
+export const imgDonaZeze = {
+    src: 'images/dona_zeze.jpg',
+    alt: 'Dona Zezé',
+    text: 'Dona Zezé'
+};
+
 // Array of all testimonial data for easier mapping
 export const testimonialData = [
     {
@@ -129,7 +135,7 @@ export const testimonialData = [
     {
         id: 3,
         title: 'Dona Zezé',
-        image: imgDonaMalvina, // TODO change image
+        image: imgDonaZeze, // TODO change image
         linkTo: '/testemunhos/dona-zeze',
         text: 'Bidinha foi uma moça considerada santa (...). Após sua morte, seu pai — rico fazendeiro — construiu a Gruta de Lourdes, como promessa.',
         fullContent: [
