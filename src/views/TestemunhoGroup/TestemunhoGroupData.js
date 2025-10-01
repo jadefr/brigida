@@ -141,7 +141,7 @@ export const testimonialData = [
         fullContent: [
             {
                 type: 'intro',
-                content: 'Dona Maria José Elmais, conhecida como Dona Zezé, concedeu uma breve entrevista a sua filha Lúcia Bezerra, no ano de 2025. Confira abaixo a conversa entre mãe e filha, que foi reconstituída em formato de narrativa, preservando o conteúdo essencial.'
+                content: 'A senhora Maria José Elmais, nascida em 1923 e mais conhecida como Dona Zezé, concedeu uma breve entrevista a sua filha Lúcia Bezerra, no ano de 2025. Confira abaixo a conversa entre mãe e filha, que foi reconstituída em formato de narrativa, de forma a preservar o conteúdo essencial.'
             },
             {
                 type: 'answer',
