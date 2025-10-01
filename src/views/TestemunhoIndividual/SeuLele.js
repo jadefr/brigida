@@ -1,4 +1,3 @@
-import React from 'react';
 import TestemunhoIndividual from './TestemunhoIndividual';
 
 function SeuLele() {

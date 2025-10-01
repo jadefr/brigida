@@ -82,7 +82,7 @@ export const testimonialData = [
         fullContent: [
             {
                 type: 'intro',
-                content: 'Confira a seguir a entrevista concedida pelo senhor Wilson Madeira - conhecido como Sr. Lelê - a Denis Pitassi no ano de ****.'
+                content: 'Confira a seguir a entrevista concedida pelo saudoso senhor Wilson Madeira — conhecido como Sr. Lelê — a Denis Pitassi no ano de 2018.'
             },
             {
                 type: 'question',
@@ -123,6 +123,39 @@ export const testimonialData = [
             {
                 type: 'answer',
                 content: 'Eu quem agradeço por contribuir um pouquinho com o que sei. Bidinha intercede por nós'
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: 'Dona Zezé',
+        image: imgDonaMalvina, // TODO change image
+        linkTo: '/testemunhos/dona-zeze',
+        text: 'Bidinha foi uma moça considerada santa (...). Após sua morte, seu pai — rico fazendeiro — construiu a Gruta de Lourdes, como promessa.',
+        fullContent: [
+            {
+                type: 'intro',
+                content: 'Dona Maria José Elmais, conhecida como Dona Zezé, concedeu uma breve entrevista a sua filha Lúcia Bezerra, no ano de 2025. Confira abaixo a conversa entre mãe e filha, que foi reconstituída em formato de narrativa, preservando o conteúdo essencial.'
+            },
+            {
+                type: 'answer',
+                content: 'Em Setembro de 2025, durante uma conversa familiar, Lúcia Bezerra registrou lembranças contadas por sua mãe, Dona Zezé, sobre uma jovem conhecida pelo apelido de Bidinha, considerada à época uma “moça santa”.'
+            },
+            {
+                type: 'answer',
+                content: 'Segundo Dona Zezé, o pai da jovem — Chiquinho Figueira — era um fazendeiro rico. Ele teria custeado obras religiosas, como uma reforma significativa na igreja e a construção de uma gruta, como promessa, após a morte de Bidinha.'
+            },
+            {
+                type: 'answer',
+                content: 'Sobre a devoção local, Dona Zezé contou que eram principalmente moradores da região e parentes que faziam peregrinação à gruta. Quando havia intenção de rezar missas, podia-se escolher entre realizá-las na gruta ou dentro da igreja.'
+            },
+            {
+                type: 'answer',
+                content: 'Um detalhe curioso mencionado foi que a avó de Lúcia desejava batizar uma filha com o nome de Brígida, porém o avô não permitiu.'
+            },
+            {
+                type: 'answer',
+                content: 'Assim, entre memórias fragmentadas, a história de Bidinha se mantém viva na tradição oral de Angustura.'
             }
         ]
     }

@@ -9,6 +9,7 @@ import TestemunhoMain from "./views/TestemunhoMain/TestemunhoMain";
 import TestemunhoGroup from "./views/TestemunhoGroup/TestemunhoGroup";
 import DonaMalvina from "./views/TestemunhoIndividual/DonaMalvina";
 import SeuLele from "./views/TestemunhoIndividual/SeuLele";
+import DonaZeze from "./views/TestemunhoIndividual/DonaZeze";
 import Cura from "./views/Cura/Cura";
 import CookiesModal from "./components/CookiesModal/CookiesModal";
 import CookiesPolicy from "./views/CookiesPolicy/CookiesPolicy";
@@ -27,6 +28,7 @@ function App() {
               <Route path='/cura' element={<Cura/>} />
               <Route path='/testemunhos/dona-malvina' element={<DonaMalvina/>} />
               <Route path='/testemunhos/sr-lele' element={<SeuLele/>} />
+              <Route path='/testemunhos/dona-zeze' element={<DonaZeze/>} />
               <Route path='/cookies-policy' element={<CookiesPolicy/>} />
               <Route path='/testemunhos' element={<TestemunhoGroup/>} />
           </Routes>
