@@ -15,10 +15,6 @@
     align-items: center;
 }
 
-.testemunho-group__card:last-child {
-    margin-top: 2em;
-}
-
 .testemunho-group__img {
     display: flex;
     justify-content: center;

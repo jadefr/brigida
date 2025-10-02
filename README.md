@@ -113,3 +113,10 @@ This project is private and proprietary.
 ## 🆘 Support
 
 If you encounter any issues or have questions, please open an issue in the repository.
+
+## TODO
+
+1. fix thumbnail
+2. get Rafael's testimony
+3. add contact box
+4. try to get thumbnail without www
