@@ -35,7 +35,7 @@ export const testimonialData = [
             },
             {
                 type: 'answer',
-                content: 'Não tive a oportunidade de conviver com ela mas sim com seus pais. Seu Chiquinho tinha verdadeira paixão pela filha, sofreram muito quando ela morreu mas sabiam que ela estava do lado de Deus.'
+                content: 'Não tive a oportunidade de conviver com ela mas sim com seus pais. Sr. Chiquinho tinha verdadeira paixão pela filha, sofreram muito quando ela morreu mas sabiam que ela estava do lado de Deus.'
             },
             {
                 type: 'question',
