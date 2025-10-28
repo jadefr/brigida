@@ -189,6 +189,54 @@ export const testimonialData = [
             {
                 type: 'answer',
                 content: '(...)'
+            },
+            {
+                type: 'question',
+                content: 'Qual foi o diagnóstico inicial do Rafael? Quais sintomas ele apresentava?'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
+            },
+            {
+                type: 'question',
+                content: 'Qual foi o prognóstico dos médicos?'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
+            },
+            {
+                type: 'question',
+                content: 'Quando o Rafael começou a apresentar melhoras?'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
+            },
+            {
+                type: 'question',
+                content: 'Vocês atribuem a melhora dele à intercessão da Brígida?'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
+            },
+            {
+                type: 'question',
+                content: 'Como está o Rafael hoje?'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
+            },
+            {
+                type: 'question',
+                content: 'Qual a relação de vocês com Angustura? Já conheciam a Gruta de Lourdes e a história da Brígida?'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
             }
         ]
     }
