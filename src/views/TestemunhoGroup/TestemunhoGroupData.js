@@ -16,6 +16,12 @@ export const imgDonaZeze = {
     text: 'Dona Zezé'
 };
 
+export const imgRafaelFadel = {
+    src: 'images/rafael_fadel.png',
+    alt: 'Rafael Fadel',
+    text: 'Rafael Fadel'
+};
+
 // Array of all testimonial data for easier mapping
 export const testimonialData = [
     {
@@ -135,7 +141,7 @@ export const testimonialData = [
     {
         id: 3,
         title: 'Dona Zezé',
-        image: imgDonaZeze, // TODO change image
+        image: imgDonaZeze,
         linkTo: '/testemunhos/dona-zeze',
         text: 'Bidinha foi uma moça considerada santa (...). Após sua morte, seu pai — rico fazendeiro — construiu a Gruta de Lourdes, como promessa.',
         fullContent: [
@@ -162,6 +168,27 @@ export const testimonialData = [
             {
                 type: 'answer',
                 content: 'Assim, entre memórias fragmentadas, a história de Bidinha se mantém viva na tradição oral de Angustura.'
+            }
+        ]
+    },
+        {
+        id: 4,
+        title: 'Rafael Fadel',
+        image: imgRafaelFadel, // TODO change image
+        linkTo: '/testemunhos/rafael-fadel',
+        text: 'O pequeno Rafael Fadel, diagnosticado com ?, teve uma melhora significativa após uma amiga da família rezar na gruta de Nossa Senhora de Lourdes em Angustura.',
+        fullContent: [
+            {
+                type: 'intro',
+                content: 'O pequeno Rafael Fadel foi diagnosticado com ? aos ? anos de idade. Seus pais, preocupados com a saúde do filho, buscaram diversas formas de tratamento médico. No entanto, foi após uma amiga da família rezar na gruta de Nossa Senhora de Lourdes em Angustura que Rafael apresentou uma melhora significativa em sua condição. Confira a seguir a entrevista concedida por sua avó Mara Augusta Coutinho, em Novembro de 2025.'
+            },
+            {
+                type: 'question',
+                content: 'Conte um pouco sobre o Rafael.'
+            },
+            {
+                type: 'answer',
+                content: '(...)'
             }
         ]
     }
