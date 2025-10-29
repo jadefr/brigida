@@ -180,7 +180,7 @@ export const testimonialData = [
         fullContent: [
             {
                 type: 'intro',
-                content: 'O pequeno Rafael Fadel foi diagnosticado com ? aos ? anos de idade. Seus pais, preocupados com a saúde do filho, buscaram diversas formas de tratamento médico. No entanto, foi após uma amiga da família rezar na gruta de Nossa Senhora de Lourdes em Angustura que Rafael apresentou uma melhora significativa em sua condição. Confira a seguir a entrevista concedida por sua avó Mara Augusta Coutinho, em Novembro de 2025.'
+                content: 'O pequeno Rafael Fadel foi diagnosticado com ? aos ? anos de idade. Seus pais, preocupados com a saúde do filho, buscaram diversas formas de tratamento médico. No entanto, foi após uma amiga da família rezar na gruta de Nossa Senhora de Lourdes em Angustura que Rafael apresentou uma melhora significativa em sua condição. Confira a seguir a entrevista concedida por sua avó Augusta Mara Fadel, em Novembro de 2025.'
             },
             {
                 type: 'question',
